@@ -89,7 +89,7 @@ header nav ul li a:hover {
 }
 
 .content .button:hover {
-  background: ccae9a;
+  background: #ccae9a;
 }
 
 /* menu */
@@ -117,6 +117,7 @@ body {
   font-size: 40px;
   text-transform: uppercase;
   line-height: 60px;
+  color: white;
 }
 .menus {
   display: flex;
