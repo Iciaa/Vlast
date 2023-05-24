@@ -1,0 +1,208 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+html {
+  font-family: "Manrope", sans-serif;
+  scroll-behavior: smooth;
+}
+
+img {
+  width: 100%;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 80px;
+  width: 100%;
+  height: 70px;
+  position: absolute;
+  z-index: 1;
+}
+
+header .logo a img {
+  width: 400px;
+  height: 200px;
+}
+
+header nav ul {
+  float: right;
+  margin-right: 20px;
+}
+
+header nav ul li {
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+}
+header nav ul li a {
+  color: white;
+  font-size: 27px;
+  padding: 7px 13px;
+  border-radius: 3px;
+  text-transform: uppercase;
+}
+header nav ul li a:hover {
+  background-color: #6f4e37;
+}
+
+/* Content */
+
+.content {
+  background-image: url("img/header_coffee.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+}
+
+.content img {
+  width: 1800px;
+  height: 900px;
+}
+.content h1 {
+  font-size: 60px;
+  color: white;
+  text-shadow: 5px 4px 5px rgba(0, 0, 0, 1);
+}
+
+.content .button {
+  font-size: 30px;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  border: rgb(255, 255, 255) 2px solid;
+  padding: 10px 20px;
+  border-radius: 10px;
+  margin-top: 35px;
+}
+
+.content .button:hover {
+  background: ccae9a;
+}
+
+/* menu */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Manrope", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.section-title {
+  text-align: center;
+  margin-bottom: 60px;
+}
+.section-title h4 {
+  font-size: 40px;
+  text-transform: uppercase;
+  line-height: 60px;
+}
+.menus {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  column-gap: 5%;
+}
+.menus-items {
+  flex-basis: 32%;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+.title {
+  background-color: #261a12;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 24px;
+  text-transform: capitalize;
+  margin-bottom: 30px;
+}
+.coffee-menu {
+  background-color: #6f4e37;
+  border: 1px #6f4e37;
+  padding: 25px;
+  text-align: center;
+  position: relative;
+  transition: 0.3s;
+  margin-bottom: 30px;
+}
+.coffee-menu:hover {
+  border-color: #ffffff;
+  border-radius: 7px;
+}
+.coffee-menu:hover img {
+  border-radius: 50%;
+}
+.coffee-menu span {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  background-color: #261a12;
+  padding: 8px 20px;
+  font-size: 20px;
+  font-weight: 700;
+  border-radius: 15px 0 0 0;
+}
+.coffee-menu img {
+  max-width: 80px;
+  border: 1px solid white;
+  padding: 1px;
+  transition: 0.3s;
+}
+.coffee-menu h4 {
+  border-bottom: 1px dashed white;
+  margin: 10px 0;
+  padding-bottom: 10px;
+  text-transform: capitalize;
+  font-size: 24px;
+}
+
+.menus-area {
+  background-size: cover;
+  background-position: center;
+  height: 150vh;
+  position: relative;
+  z-index: 2;
+  padding: 100px 0;
+  color: white;
+}
+.coffee-menu a {
+  border-bottom: 3px solid #261a12;
+  display: inline-block;
+  color: #ffffff;
+  text-transform: uppercase;
+  margin-top: 25px;
+}
+
+.menus-area::before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: #b48868;
+  z-index: -1;
+  opacity: 0.5;
+  left: 0;
+  top: 0;
+}
